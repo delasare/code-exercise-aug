@@ -1,0 +1,60 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.next {
+  font-size: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.questions {
+  display: inline-block;
+}
+
+.questions ol > li {
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.questions > ol > li > button.answer.correct {
+  border: 1px solid green;
+}
+
+.questions > ol > li > button.answer.incorrect {
+  border: 1px solid red;
+  text-decoration: line-through;
+}
+
+.questions ol > li > button {
+  font-size: 1.5rem;
+  background-color: white;
+  border: none;
+  color: #000;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.message {
+  margin: 2rem;
+  font-size: 2rem;
+  color: green;
+}
+
+.message.incorrect {
+  color: red;
+}
+
+.summary {
+  font-size: 2rem;
+  margin: 1rem;
+  align-items: center;
+}
+
+.encouragement {
+  margin: 2rem;
+}
